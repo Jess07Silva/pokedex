@@ -28,7 +28,7 @@ fetch(url + name)
 function createCard (){
     card = `
     <div class "pokemon-picture">
-        <img src ="${pokemon.sprites.front_default}" alt = "Sprite of ${pokemon.name}">
+        <img src = "${pokemon.sprites.other['official-artwork'].front_default}" alt = "Sprite of ${pokemon.name}">
     </div>
     <div class = "pokemon-info">
         <h1 class ="name">Name: ${pokemon.name}</h1>
